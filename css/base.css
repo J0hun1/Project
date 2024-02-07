@@ -188,7 +188,7 @@ canvas {
 
 .content__title {
 	font-weight: 700;
-	font-size: 3vw;
+	font-size: 2.2vw;
 }
 
 .js .content__item .content__title {
@@ -232,7 +232,7 @@ canvas {
 	border: 0;
 	color: var(--color-text);
 	cursor: pointer;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 	font-family: 'Sixtyfour', sans-serif;
 	font-weight: 700;
 	position: relative;	
@@ -255,7 +255,7 @@ canvas {
 }
 
 .content__button:hover::after {
-	line-height: 1.3em;
+	line-height: 1.25em;
 	color: rgb(240, 145, 159);
 	content: 'Will you be my valentine?';
 	opacity: 1;
