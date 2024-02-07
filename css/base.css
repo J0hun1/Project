@@ -94,10 +94,7 @@ canvas {
 }
 
 .frame {
-	padding: 3rem 5vw;
 	text-align: center;
-	position: relative;
-	z-index: 1000;
 }
 
 .demo-1 .frame,
@@ -133,8 +130,9 @@ canvas {
 }
 
 .frame__title {
+	text-align: center;
 	font-size: 1rem;
-	margin: 0 0 1rem;
+	margin: 0rem;
 	font-weight: normal;
 }
 
@@ -190,8 +188,7 @@ canvas {
 
 .content__title {
 	font-weight: 700;
-	font-size: 5vw;
-	margin: 0;
+	font-size: 3vw;
 }
 
 .js .content__item .content__title {
@@ -211,8 +208,9 @@ canvas {
 	transform-origin: 50% 0%;
 }
 
+
 .content__date {
-	font-size: 5rem;
+	font-size: 6rem;
 	font-weight: 700;
 	margin: 1rem 0 0 0;
 	color: var(--color-date);
@@ -223,7 +221,7 @@ canvas {
 .content__inner-item--date {
 	display: block;
 	margin-top: 0;
-	font-size: 6rem;
+	font-size: 22rem;
 }
 
 
